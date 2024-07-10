@@ -177,3 +177,47 @@ body{
 .Java-bg-color {
     background: rgba(255, 223, 0, 0.05);
 }
+
+/* Target Section Start */
+ .next-target-container {
+    width: 1140px;
+    margin: 0 auto;
+    border: 2px solid red;
+    margin-top: 110px;
+    margin-bottom: 80px;
+}
+
+
+.next-target-title p{
+    text-align: center;
+}
+
+.next-target-contents {
+    width: 1140px;
+    margin: 0 auto;
+    margin-top: 48px;
+    
+}
+.next-target-content {
+    width: 1060px;
+    height: 219px;
+    border: 1px solid rgba(128, 128, 128, 0.55);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 30px;
+}
+.next-target-data h5 {
+    font-size: 24px;
+    font-weight: 700;
+}
+.next-target-data a {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    color: #0D1321;
+    margin-bottom: 20px;
+}
