@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* share styles */
+
+body{
+    font-family: "Azeret Mono", monospace;
+}
+
+.paragraph{
+    font-size: 16px;
+    color: #0D1321;
+    text-align: center;
+}
+
+.title-h2 {
+    font-size: 32px;
+    font-weight: 800px;
+    color: #0D1321;
+    text-align: center;
+}
+
+/* banner section start */
+
+.banner-container {
+    max-width: 1440px;
+    height: 652px;
+    margin: 0 auto;
+    background-image: url(../assets/Hero-bg.png);
+}
+.banner-content{
+    width: 998px;
+    height: 581px;
+    margin: 0 auto;
+    margin-top: 26px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner-content h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #0D1321;
+    text-align: center;
+}
+
+.btn {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    background-color: #0D1321;
+    padding: 21px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* Development Section Style */
+
+.development-container {
+    width: 1440px;
+    height: 1393px;
+    margin: 0 auto;
+    margin-top: 74px;
+    margin-bottom: 90px;
+    background: rgba(13, 19, 33, 0.10);
+    border: 1px solid rgba(128, 128, 128, 0.55);
+    border-radius: 16px;
+    padding-bottom: 50px;
+    
+}
+
+.development-content {
+    width: 946px;
+    height: 1233px;
+    margin: 0 auto;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.development-details {
+    display: flex;
+    gap: 98px;
+    justify-content: space-between;
+    padding: 48px;
+    background-color: white;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+.development-detail h3{
+    font-size: 24px;
+    color: #0D1321;
+}
+.btn-2{
+    padding: 12px 20px;
+    background-color: white;
+    color: #0D1321;
+    cursor: pointer;
+}
+.video-section{
+    width: 1140px;
+    height: 775px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
+
+.video-details {
+    padding: 0 144px 48px 144px;
+}
+
+.video {
+    width: 1076px;
+    height: 550px;
+    margin: 0 auto;
+    border-radius: 16px;
+}
+
+.video iframe {
+    border-radius: 16px;
+}
+
+/* Target Section */
+
+.target {
+    width: 1140px;
+    height: 460px;
+    margin: 0 auto;
+    border: 2px solid red;
+}
+
+
