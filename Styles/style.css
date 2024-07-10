@@ -99,27 +99,32 @@ body{
     color: #0D1321;
     cursor: pointer;
 }
+
+/* Styles For Video Section */
+
 .video-section{
     width: 1140px;
     height: 775px;
     margin: 0 auto;
-    box-sizing: border-box;
-    border: 1px solid rgba(13, 19, 33, 0.2);
-    border-radius: 16px;
-}
-
-.video-details {
-    padding: 0 144px 48px 144px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .video {
     width: 1076px;
     height: 550px;
-    margin: 0 auto;
+    margin: 32px auto;
+    padding: 32px;
+    border: 1px solid rgba(13, 19, 33, 0.5);
     border-radius: 16px;
+    
 }
 
-.video iframe {
+.youtube-video {
+    width: 1076px;
+    height: 550px;
     border-radius: 16px;
 }
 
@@ -130,6 +135,7 @@ body{
     height: 460px;
     margin: 0 auto;
     border: 2px solid red;
+    margin-top: 150px;
 }
 
 
